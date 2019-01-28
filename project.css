@@ -1,0 +1,19 @@
+.jumbotron{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #2CC103;
+    text-align: center
+}
+.info{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+body{
+    background-color: #EB7D10;
+}
+pre{
+    background-color: #000000;
+    color: #2CC103;
+}

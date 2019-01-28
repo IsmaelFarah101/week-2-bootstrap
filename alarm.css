@@ -1,0 +1,22 @@
+#real-alert{
+    font-size: 50px;
+    color: red;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    display: block;
+
+
+}
+#test-only{
+    font-size: 20px;
+    color:green;
+    padding: 10px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 10px;
+    display: inline;
+
+}
+
