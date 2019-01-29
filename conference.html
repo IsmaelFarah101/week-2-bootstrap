@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=n">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="conference.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1>Conference Form</h1>
+        </div>
+        <div class="row">
+            <form class="col-md-5">
+                <label for="registrant-name"> Enter Registrant Name</label><input class="form-control" type="text" name="registrant-name" maxlength="70" required><br>
+                <label for="registrant-password">Enter Registrant Password</label><input class="form-control "type="password" name="registrant-password"required><br>
+                <label for="registrant-email">Enter Regiatrant Email</label><input class="form-control"type="mail" name="registrant-email" required><br>
+                <label for="registrant-size">Enter T-shirt Size</label><select name="registrant-size" required><option>Small</option>
+                                                             <option>Medium</option>
+                                                             <option>Large</option>
+                                                             </select><br>
+                <label for="dateofbirth">Enter Date of Birth</label><input type="date" name="dateofbirth" required><br>
+                <p>Would You Like to Recieve Emails?</p>
+                <div class="form-check">
+                        <input class="form-check-input" name="recieve-email" type="radio" id="yes" checked><label for="yes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check">
+                        <input class="form-check-input" name="recieve-email" type="radio" id="no"><label for="no" class="form-check-label">No</label>
+                </div>
+                <label for="special-requests">Any Special Requests</label><textarea name="special-requests" class="form-control" rows= 7 cols=70 ></textarea><br>
+                <input type="submit"><br>
+
+            </form>
+        </div>
+    </body>
+</html>
